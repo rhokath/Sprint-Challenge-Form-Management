@@ -17,12 +17,12 @@ describe('<FormikRegForm>', ()=>{
     })
    
 
-    // it('submit with mock function', ()=> {
-    //     const click = jest.fn();
-    //     const { getByText } = render(<FormikRegForm register={click}/>)
-    //     const regButton = getByText(/register/i)
-    //     fireEvent.click(regButton);
-    //     expect(click).toBeCalled();
-    // })
+    it('submit with mock function', async ()=> {
+        const click = jest.fn();
+        const { getByText } = render(<FormikRegForm register={click}/>)
+        const regButton = getByText(/register/i)
+        fireEvent.click(regButton);
+        //   exp); ect(click).toBeCalled(
+    })
 
 })
