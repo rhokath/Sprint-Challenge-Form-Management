@@ -6,7 +6,7 @@ import axios from "axios";
 const RegForm = ({values, errors, touched}) => {
 
     return(
-        <div>
+        <div className="form">
             <Form>
                 {touched.username && errors.username && <p>{errors.username}</p>}
                 <Field type="username" name="username" placeholder="Username"/>

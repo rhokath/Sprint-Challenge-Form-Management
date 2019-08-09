@@ -3,7 +3,7 @@ import FormikRegForm from "./components/Form";
 import DataObject from "./components/DataObjects";
 import axios from "axios";
 
-import './App.css';
+import './App.scss';
 
 class App extends React.Component{
   constructor(){
